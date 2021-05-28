@@ -12,7 +12,7 @@ public class Solution006 {
 			sum += i;
 		}
 		
-		sum = sum * sum;
+		sum *= sum;
 		
 		for (int k = 1; k <= 100; k++) {
 			squareNum = k * k;
