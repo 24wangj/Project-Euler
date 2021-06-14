@@ -4,7 +4,6 @@ public class Solution006 {
 	public static void main(String[] args) {
 		
 		int sum = 0;
-		int squareNum = 0;
 		int squareSum = 0;
 		int result;
 		
@@ -15,8 +14,7 @@ public class Solution006 {
 		sum *= sum;
 		
 		for (int k = 1; k <= 100; k++) {
-			squareNum = k * k;
-			squareSum += squareNum;
+			squareSum += k * k;
 		}
 		
 		result = sum - squareSum;
