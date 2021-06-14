@@ -6,6 +6,7 @@ public class Solution005 {
 		int num = 0;
 		boolean isMultiple = false;
 		
+		//This is a dumb solution
 		for (int i = 0; isMultiple != true; i++) {
 			if (i > 0 &&
 				i % 2 == 0 &&
