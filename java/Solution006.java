@@ -14,7 +14,7 @@ public class Solution006 {
 		sum *= sum;
 		
 		for (int k = 1; k <= 100; k++) {
-			squareSum += k * k;
+			squareSum += Math.pow(k, 2);
 		}
 		
 		result = sum - squareSum;
