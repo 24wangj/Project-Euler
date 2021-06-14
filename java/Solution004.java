@@ -14,7 +14,7 @@ public class Solution004 {
 				input.append(str);
 				input.reverse();
 				
-				if (str.equals(input.toString()) && product > result) {
+				if (product > result && str.equals(input.toString())) {
 					result = product;
 				}
 			}
