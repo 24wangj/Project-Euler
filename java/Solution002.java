@@ -3,22 +3,19 @@ public class Solution002 {
 
 	public static void main(String[] args) {
 		
-		int num1 = 0;
-		int num2 = 1;
-		int numSum = 0;
-		int totalSum = 0;
+		int num1 = 0, num2 = 1, sum = 0, result = 0;
 		
-		while (numSum <= 4000000) {
-			numSum = num1 + num2;
+		while (sum <= 4000000) {
+			sum = num1 + num2;
 			num1 = num2;
-			num2 = numSum;
+			num2 = sum;
 			
-			if (numSum % 2 == 0) {
-				totalSum += numSum;
+			if (sum % 2 == 0) {
+				result += sum;
 			}
 		}
 		
-		System.out.println(totalSum);
+		System.out.println(result);
 		
 	}
 }
