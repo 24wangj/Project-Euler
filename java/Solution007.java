@@ -26,5 +26,6 @@ public class Solution007 {
 		}
 		
 		System.out.println(prime);
+		
 	}
 }
