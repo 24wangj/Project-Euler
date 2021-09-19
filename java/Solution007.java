@@ -1,5 +1,4 @@
 
-//UNSOLVED
 public class Solution007 {
 
 	public boolean isPrime(int num) {
