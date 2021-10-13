@@ -11,7 +11,7 @@ public class Solution001 {
 			}
 		}
 		
-		System.out.println(totalSum) ;
+		System.out.println(totalSum);
 		
 	}
 }
